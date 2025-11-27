@@ -1,6 +1,6 @@
 FROM node:20
 WORKDIR /opt/server
-COPY package.josn .
+COPY package.json .
 COPY *.js .
 # This may add extra cache memory
 RUN npm install
