@@ -75,7 +75,7 @@ networks:
     external: false # it should be true if the network is already created manually by you.
 
 volumes:
-  mongodb: docker volume creates mongodb volume
+  mongodb: #docker volume creates mongodb volume
   redis:
   rabbitmq:
   mysql:
