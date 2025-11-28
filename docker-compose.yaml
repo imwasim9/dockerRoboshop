@@ -15,12 +15,12 @@ services:
     volumes:
     - mysql:/var/lib/mysql
   redis:
-    image: redis:v1
+    image: redis:7.0
     container_name: redis
     volumes:
     - redis:/data
   rabbitmq:
-    image: rabbitmq:v1
+    image: rabbitmq:3
     container_name: rabbitmq
     volumes:
     - rabbitmq:/var/lib/rabbitmq
